@@ -9,10 +9,12 @@
     <Grid Margin="10">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
+                <GradientStop Color="DarkBlue"/>
                 <GradientStop Color="#FF05F0F5" Offset="0.271"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <Label x:Name="DateLabel" Content="" HorizontalAlignment="Left" Margin="640,10,0,0" VerticalAlignment="Top" Foreground="#FF05F0F5" FontSize="14" Loaded="DateLabel_Loaded"/>
+        <Label Content="Date:" HorizontalAlignment="Left" Margin="593,10,0,0" VerticalAlignment="Top" Foreground="#FF05F0F5" FontSize="14"/>
 
     </Grid>
 </Window>

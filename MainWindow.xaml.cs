@@ -24,5 +24,12 @@ namespace WPFDemo
         {
             InitializeComponent();
         }
+
+        private void DateLabel_Loaded(object sender, RoutedEventArgs e)
+        {
+            DateTime dt = DateTime.Now;
+
+            DateLabel.Content = dt.Date.ToShortDateString();
+        }
     }
 }
