@@ -42,5 +42,11 @@ namespace WPFDemo
         {
             this.Close();
         }
+
+        private void NameBtn_Click(object sender, RoutedEventArgs e)
+        {
+            string name = NameBx.Text.ToString();
+            MessageBox.Show("Hello "+ name);
+        }
     }
 }
