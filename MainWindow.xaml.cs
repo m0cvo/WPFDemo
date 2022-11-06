@@ -31,5 +31,16 @@ namespace WPFDemo
 
             DateLabel.Content = dt.Date.ToShortDateString();
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            String str = "Hello, Thank you for clicking me!";
+            Label1.Content = str;
+        }
+
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -15,6 +15,9 @@
         </Grid.Background>
         <Label x:Name="DateLabel" Content="" HorizontalAlignment="Left" Margin="640,10,0,0" VerticalAlignment="Top" Foreground="#FF05F0F5" FontSize="14" Loaded="DateLabel_Loaded"/>
         <Label Content="Date:" HorizontalAlignment="Left" Margin="593,10,0,0" VerticalAlignment="Top" Foreground="#FF05F0F5" FontSize="14"/>
+        <Label x:Name="Label1" Content="" HorizontalAlignment="Left" Margin="145,53,0,0" VerticalAlignment="Top" Height="30" Foreground="#FF05F0F5" FontSize="14"/>
+        <Button x:Name="Button1" Content="Click Me!" HorizontalAlignment="Left" Margin="39,53,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF05F0F5" FontWeight="Bold" Width="101" Height="26" Click="Button1_Click" RenderTransformOrigin="0.537,0.089"/>
+        <Button x:Name="ExitBtn" Content="Exit" HorizontalAlignment="Left" Margin="659,360,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="14" Foreground="#FF0B25FB" Click="ExitBtn_Click"/>
 
     </Grid>
 </Window>
