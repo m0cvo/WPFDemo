@@ -12,3 +12,5 @@ Thirdly add some buttons - one displays a text message and the other is an exit 
 actions are performed using C# code behind.
 
 Next stage is to show how to add simple data entry (name in this case) and then act upon it with a pop up message using the code behind (C#).
+
+Next stage is to add a new page with a background image and added a button to the start page to access it.

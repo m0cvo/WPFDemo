@@ -48,5 +48,12 @@ namespace WPFDemo
             string name = NameBx.Text.ToString();
             MessageBox.Show("Hello "+ name);
         }
+
+        private void SnowBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            this.Hide();
+            window1.Show();
+        }
     }
 }

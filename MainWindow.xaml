@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPFDemo"
         mc:Ignorable="d"
         Title="WPF Demo" Height="450" Width="800">
-    <Grid Margin="10">
+    <Grid x:Name="Grid1" Margin="10">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="DarkBlue"/>
@@ -21,6 +21,7 @@
         <Label Content="Please enter your name:" HorizontalAlignment="Left" Margin="39,84,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF0514F7"/>
         <TextBox x:Name="NameBx" HorizontalAlignment="Left" Margin="202,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="14" Height="25"/>
         <Button x:Name="NameBtn" Content="Enter" HorizontalAlignment="Left" Margin="427,88,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF031DFB" Width="100" Height="25" Click="NameBtn_Click"/>
+        <Button x:Name="SnowBtn" Content="SnowScene" HorizontalAlignment="Left" Margin="39,137,0,0" VerticalAlignment="Top" Width="101" Height="30" Foreground="#FF046FFD" FontSize="14" Background="{x:Null}" BorderBrush="#FF080808" Click="SnowBtn_Click"/>
 
     </Grid>
 </Window>
