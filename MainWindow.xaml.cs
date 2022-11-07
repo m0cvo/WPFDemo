@@ -38,10 +38,7 @@ namespace WPFDemo
             Label1.Content = str;
         }
 
-        private void ExitBtn_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
+        private void ExitBtn_Click(object sender, RoutedEventArgs e) => Application.Current.Shutdown();
 
         private void NameBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -54,6 +51,13 @@ namespace WPFDemo
             Window1 window1 = new Window1();
             this.Hide();
             window1.Show();
+        }
+
+        private void ListBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            this.Hide();
+            window2.Show();
         }
     }
 }

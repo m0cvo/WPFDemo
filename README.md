@@ -13,4 +13,9 @@ actions are performed using C# code behind.
 
 Next stage is to show how to add simple data entry (name in this case) and then act upon it with a pop up message using the code behind (C#).
 
-Next stage is to add a new page with a background image and added a button to the start page to access it.
+Next stage is to add a new window with a background image and added a button to the start window to access it.
+
+Next stage is to add a list demo.  This involves adding a new window with a button and then within the code behind (C#) creating a list of colors that is  echoed to 
+the screen using a foreach command and a MessageBox.Show() command. We then use the "Remove" command to remove one of the colors, check if the color "Blue"" still 
+exists and then list the remaining colors before clearing the whole list and performing a count to ensure the list is now empty.
+
