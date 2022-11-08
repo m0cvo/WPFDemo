@@ -19,3 +19,5 @@ Next stage is to add a list demo.  This involves adding a new window with a butt
 the screen using a foreach command and a MessageBox.Show() command. We then use the "Remove" command to remove one of the colors, check if the color "Blue"" still 
 exists and then list the remaining colors before clearing the whole list and performing a count to ensure the list is now empty.
 
+Following on from the list demo, I have added some checkboxes.  These are convenient for allowing the user to make a choice and also demonstrate the use of logical
+operators in the codse behind.

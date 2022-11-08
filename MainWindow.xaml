@@ -23,6 +23,9 @@
         <Button x:Name="NameBtn" Content="Enter" HorizontalAlignment="Left" Margin="427,88,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF031DFB" Width="100" Height="25" Click="NameBtn_Click"/>
         <Button x:Name="SnowBtn" Content="SnowScene" HorizontalAlignment="Left" Margin="39,137,0,0" VerticalAlignment="Top" Width="101" Height="30" Foreground="#FF046FFD" FontSize="14" Background="{x:Null}" BorderBrush="#FF080808" Click="SnowBtn_Click"/>
         <Button x:Name="ListBtn" Content="List Demo" HorizontalAlignment="Left" Margin="39,172,0,0" VerticalAlignment="Top" Width="101" Height="30" Background="{x:Null}" Foreground="#FF046FFD" Click="ListBtn_Click" BorderBrush="#FF080808"/>
+        <CheckBox x:Name="ChkOne" Content="One" HorizontalAlignment="Left" Margin="39,215,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD"/>
+        <CheckBox x:Name="ChkTwo" Content="Two" HorizontalAlignment="Left" Margin="39,238,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD"/>
+        <Button x:Name="SubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="96,224,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD" BorderBrush="#FF080808" Width="101" Height="30" Background="{x:Null}" Click="SubmitBtn_Click"/>
 
     </Grid>
 </Window>

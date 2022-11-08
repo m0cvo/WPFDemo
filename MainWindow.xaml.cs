@@ -59,5 +59,36 @@ namespace WPFDemo
             this.Hide();
             window2.Show();
         }
+
+        private void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (ChkOne.IsChecked == false && ChkTwo.IsChecked == false)
+                {
+                    MessageBox.Show("please tick one check box!");
+                    return;
+                }
+                else if (ChkOne.IsChecked == true && ChkTwo.IsChecked == true)
+                {
+                    MessageBox.Show("please check only one box!");
+                    return ;
+                }
+                else if (ChkOne.IsChecked == true)
+                {
+                    MessageBox.Show("One is checked!");
+                    return;
+                }
+                else if (ChkTwo.IsChecked == true)
+                {
+                    MessageBox.Show("Two is checked!");
+                    return;
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
     }
 }
