@@ -17,6 +17,7 @@ namespace WPFDemo
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
+    /// Now using .Net 7.
     /// </summary>
     public partial class MainWindow : Window
     {
