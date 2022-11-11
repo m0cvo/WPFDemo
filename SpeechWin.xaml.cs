@@ -32,9 +32,9 @@ namespace WPFDemo
         private void EnterBtn_Click(object sender, RoutedEventArgs e)
         {
             string Name = NameBox.Text.ToString();
-            PromptBuilder builder = new PromptBuilder();
+            PromptBuilder builder = new();
             builder.AppendText("Hello " + Name + " I hope you are having a good day.");
-            SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer();
+            SpeechSynthesizer speechSynthesizer = new();
             speechSynthesizer.Speak(builder);
         }
     }

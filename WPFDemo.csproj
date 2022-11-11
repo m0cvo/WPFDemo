@@ -5,11 +5,11 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>Mogpie-1.ico</ApplicationIcon>
+    <ApplicationIcon>WPF.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Mogpie-1.ico" />
+    <Content Include="WPF.ico" />
   </ItemGroup>
 
   <ItemGroup>
