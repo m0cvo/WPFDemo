@@ -26,6 +26,8 @@ namespace WPFDemo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
                 List<string> colors = new List<string>();
                 //add items in a List collection
                 colors.Add("Red");
@@ -66,6 +68,10 @@ namespace WPFDemo
                 //call clear method
                 arrlist.Clear();
                 MessageBox.Show(arrlist.Count.ToString());
+            }
+
+            catch (Exception Ex)
+            { MessageBox.Show(Ex.Message); }
         }
 
         private void CloseBtn_Click(object sender, RoutedEventArgs e)

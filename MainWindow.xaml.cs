@@ -27,11 +27,17 @@ namespace WPFDemo
 
         private void DateLabel_Loaded(object sender, RoutedEventArgs e)
         {
+            //DateTime is used as an object to set the current date
             DateTime dt = DateTime.Now;
 
             DateLabel.Content = dt.Date.ToShortDateString();
         }
-
+        
+        /// <summary>
+        /// Interaction logic for Button1
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             String str = "Hello, Thank you for clicking me!";
@@ -62,7 +68,7 @@ namespace WPFDemo
 
         private void SubmitBtn_Click(object sender, RoutedEventArgs e)
         {
-            try
+            try //let's try and see if this works as expected
             {
                 if (ChkOne.IsChecked == false && ChkTwo.IsChecked == false)
                 {
@@ -85,10 +91,17 @@ namespace WPFDemo
                     return;
                 }
             }
-            catch (Exception Ex)
+            catch (Exception Ex) //if anything doesn't work let's catch the error and deal with it safely.
             {
                 MessageBox.Show(Ex.Message);
             }
+        }
+
+        private void SpeechBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //this one's an experimental stage as now working with .net 7.
+            SpeechWin speechWin = new SpeechWin();
+            speechWin.Show();
         }
     }
 }

@@ -26,6 +26,9 @@
         <CheckBox x:Name="ChkOne" Content="One" HorizontalAlignment="Left" Margin="39,215,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD"/>
         <CheckBox x:Name="ChkTwo" Content="Two" HorizontalAlignment="Left" Margin="39,238,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD"/>
         <Button x:Name="SubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="96,224,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD" BorderBrush="#FF080808" Width="101" Height="30" Background="{x:Null}" Click="SubmitBtn_Click"/>
+        <Label Content="WPF Demo" HorizontalAlignment="Left" Margin="45,9,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF04F4F9"/>
+        <Label Content="Written by N. Booth 2022" HorizontalAlignment="Center" Margin="0,12,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF04F4F9" RenderTransformOrigin="0.714,0.467"/>
+        <Button x:Name="SpeechBtn" Content="Speech Demo" HorizontalAlignment="Left" Margin="39,275,0,0" VerticalAlignment="Top" Width="101" Height="30" BorderBrush="#FF060606" Background="{x:Null}" FontSize="14" Foreground="#FF046FFD" Click="SpeechBtn_Click"/>
 
     </Grid>
 </Window>
