@@ -104,5 +104,12 @@ namespace WPFDemo
             SpeechWin speechWin = new SpeechWin();
             speechWin.Show();
         }
+
+        private void AniBtn_Click(object sender, RoutedEventArgs e)
+        {
+            AniWin aniWin = new AniWin();
+            aniWin.Show();
+            this.Hide();
+        }
     }
 }

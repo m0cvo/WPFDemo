@@ -16,19 +16,20 @@
         <Label x:Name="DateLabel" Content="" HorizontalAlignment="Left" Margin="640,10,0,0" VerticalAlignment="Top" Foreground="#FF05F0F5" FontSize="14" Loaded="DateLabel_Loaded"/>
         <Label Content="Date:" HorizontalAlignment="Left" Margin="593,10,0,0" VerticalAlignment="Top" Foreground="#FF05F0F5" FontSize="14"/>
         <Label x:Name="Label1" Content="" HorizontalAlignment="Left" Margin="145,53,0,0" VerticalAlignment="Top" Height="30" Foreground="#FF05F0F5" FontSize="14"/>
-        <Button x:Name="Button1" Content="Click Me!" HorizontalAlignment="Left" Margin="39,53,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF05F0F5" FontWeight="Bold" Width="101" Height="26" Click="Button1_Click" RenderTransformOrigin="0.537,0.089"/>
+        <Button x:Name="Button1" Content="Click Me!" HorizontalAlignment="Left" Margin="39,53,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF05F0F5" FontWeight="Bold" Width="116" Height="26" Click="Button1_Click" RenderTransformOrigin="0.537,0.089"/>
         <Button x:Name="ExitBtn" Content="Exit" HorizontalAlignment="Left" Margin="659,360,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="14" Foreground="#FF0B25FB" Click="ExitBtn_Click"/>
         <Label Content="Please enter your name:" HorizontalAlignment="Left" Margin="39,84,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF0514F7"/>
         <TextBox x:Name="NameBx" HorizontalAlignment="Left" Margin="202,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="14" Height="25"/>
-        <Button x:Name="NameBtn" Content="Enter" HorizontalAlignment="Left" Margin="427,88,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF031DFB" Width="100" Height="25" Click="NameBtn_Click"/>
-        <Button x:Name="SnowBtn" Content="SnowScene" HorizontalAlignment="Left" Margin="39,137,0,0" VerticalAlignment="Top" Width="101" Height="30" Foreground="#FF046FFD" FontSize="14" Background="{x:Null}" BorderBrush="#FF080808" Click="SnowBtn_Click"/>
-        <Button x:Name="ListBtn" Content="List Demo" HorizontalAlignment="Left" Margin="39,172,0,0" VerticalAlignment="Top" Width="101" Height="30" Background="{x:Null}" Foreground="#FF046FFD" Click="ListBtn_Click" BorderBrush="#FF080808"/>
+        <Button x:Name="NameBtn" Content="Enter" HorizontalAlignment="Left" Margin="427,88,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF031DFB" Width="116" Height="25" Click="NameBtn_Click"/>
+        <Button x:Name="SnowBtn" Content="SnowScene" HorizontalAlignment="Left" Margin="39,137,0,0" VerticalAlignment="Top" Width="116" Height="30" Foreground="#FF046FFD" FontSize="14" Background="{x:Null}" BorderBrush="#FF080808" Click="SnowBtn_Click"/>
+        <Button x:Name="ListBtn" Content="List Demo" HorizontalAlignment="Left" Margin="39,172,0,0" VerticalAlignment="Top" Width="116" Height="30" Background="{x:Null}" Foreground="#FF046FFD" Click="ListBtn_Click" BorderBrush="#FF080808"/>
         <CheckBox x:Name="ChkOne" Content="One" HorizontalAlignment="Left" Margin="39,215,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD"/>
         <CheckBox x:Name="ChkTwo" Content="Two" HorizontalAlignment="Left" Margin="39,238,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD"/>
-        <Button x:Name="SubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="96,224,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD" BorderBrush="#FF080808" Width="101" Height="30" Background="{x:Null}" Click="SubmitBtn_Click"/>
+        <Button x:Name="SubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="96,224,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF046FFD" BorderBrush="#FF080808" Width="116" Height="30" Background="{x:Null}" Click="SubmitBtn_Click"/>
         <Label Content="WPF Demo" HorizontalAlignment="Left" Margin="45,9,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF04F4F9"/>
         <Label Content="Written by N. Booth 2022" HorizontalAlignment="Center" Margin="0,12,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF04F4F9" RenderTransformOrigin="0.714,0.467"/>
-        <Button x:Name="SpeechBtn" Content="Speech Demo" HorizontalAlignment="Left" Margin="39,275,0,0" VerticalAlignment="Top" Width="101" Height="30" BorderBrush="#FF060606" Background="{x:Null}" FontSize="14" Foreground="#FF046FFD" Click="SpeechBtn_Click"/>
+        <Button x:Name="SpeechBtn" Content="Speech Demo" HorizontalAlignment="Left" Margin="39,275,0,0" VerticalAlignment="Top" Width="116" Height="30" BorderBrush="#FF060606" Background="{x:Null}" FontSize="14" Foreground="#FF046FFD" Click="SpeechBtn_Click"/>
+        <Button x:Name="AniBtn" Content="Animation Demo" HorizontalAlignment="Left" Margin="39,321,0,0" VerticalAlignment="Top" Width="116" Height="30" FontSize="14" Foreground="#FF046FFD" BorderBrush="#FF060606" Background="{x:Null}" Click="AniBtn_Click"/>
 
     </Grid>
 </Window>

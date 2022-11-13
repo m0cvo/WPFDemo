@@ -23,3 +23,5 @@ Following on from the list demo, I have added some checkboxes.  These are conven
 operators in the code behind.
 
 After the list demo I looked at adding speech synthesis.  To do this I needed to install the NuGet package System.Speech (7.0.0).  Some explanation of how this works is included in the comments placed in the code behind.
+
+Added an animation demonstration.  This changes the opacity of an object (Rectangle) using a storyboard.  This will work whether you are coding in .NET, .NET Core or >NET Framework.
