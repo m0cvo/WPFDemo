@@ -34,7 +34,7 @@ namespace WPFDemo
         /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
+            MainWindow mainWindow = new();
             mainWindow.Show();
             this.Close();
         }

@@ -55,14 +55,14 @@ namespace WPFDemo
 
         private void SnowBtn_Click(object sender, RoutedEventArgs e)
         {
-            Window1 window1 = new Window1();
+            Window1 window1 = new();
             this.Hide();
             window1.Show();
         }
 
         private void ListBtn_Click(object sender, RoutedEventArgs e)
         {
-            Window2 window2 = new Window2();
+            Window2 window2 = new();
             this.Hide();
             window2.Show();
         }
@@ -101,13 +101,13 @@ namespace WPFDemo
         private void SpeechBtn_Click(object sender, RoutedEventArgs e)
         {
             //this one's an experimental stage as now working with .net 7.
-            SpeechWin speechWin = new SpeechWin();
+            SpeechWin speechWin = new();
             speechWin.Show();
         }
 
         private void AniBtn_Click(object sender, RoutedEventArgs e)
         {
-            AniWin aniWin = new AniWin();
+            AniWin aniWin = new();
             aniWin.Show();
             this.Hide();
         }
