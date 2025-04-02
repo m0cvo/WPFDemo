@@ -30,3 +30,5 @@ Added an animation demonstration.  This changes the opacity of an object (Rectan
 
 The purpose of this app is to enable others to read the code and learn from it, a sort of self training.  Alternatively, sections of the codecan be freely used to enable 
 functions in your own apps.  If you do find it useful, please consider sponsoring my work by clicking the sponsor button at the top of the code page.
+
+02/04/2025: Added threading to move the speech synth to a free core in order to prevent the app from stalling.
