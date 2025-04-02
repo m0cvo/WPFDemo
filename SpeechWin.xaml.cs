@@ -1,4 +1,6 @@
-﻿using System.Speech.Synthesis;
+﻿using System.Threading;
+using System.Media;
+using System.Speech.Synthesis;
 using System.Windows;
 
 namespace WPFDemo
@@ -21,7 +23,7 @@ namespace WPFDemo
         {
             this.Close();
         }
-        
+
         /// <summary>
         /// For the speech synthesis I had to import NuGet package System.Speech (7.0.0)
         /// it then takes a string and converts it into a PromptBuilder which it can then
@@ -32,10 +34,16 @@ namespace WPFDemo
         private void EnterBtn_Click(object sender, RoutedEventArgs e)
         {
             string Name = NameBox.Text.ToString();
-            PromptBuilder builder = new();
-            builder.AppendText("Hello " + Name + " I hope you are having a good day.");
-            SpeechSynthesizer speechSynthesizer = new();
-            speechSynthesizer.Speak(builder);
+            string text = "Hello " + Name + " I hope you are having a good day.";
+            //Create a thread object.
+            Thread Speaker = new Thread(() => Speak(text));
+            Speaker.Start();
+        }
+
+        static void Speak(string text)
+        {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak(text);
         }
     }
 }
